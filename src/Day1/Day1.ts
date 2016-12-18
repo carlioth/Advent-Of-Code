@@ -1,8 +1,2 @@
-class Startup {
-    public static main(): number {
-        console.log('Hello World');
-        return 0;
-    }
-}
+import * as inpus from "./input";
 
-Startup.main();
