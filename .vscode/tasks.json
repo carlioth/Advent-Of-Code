@@ -5,6 +5,6 @@
     "command": "node",
     "isShellCommand": true,
     "args": ["${workspaceRoot}\\node_modules\\typescript\\bin\\tsc"],
-    "showOutput": "silent",
-    "problemMatcher": "$tsc"
+    "showOutput": "always",
+    "problemMatcher": "$tsc-watch"
 }
