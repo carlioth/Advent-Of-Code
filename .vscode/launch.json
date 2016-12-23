@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceRoot}/src/Day1/Day1.ts",
+            "program": "${workspaceRoot}/src/Day2/Day2.ts",
             "cwd": "${workspaceRoot}",
             "outFiles": [ "${workspaceRoot}/dist/**" ],
             "sourceMaps": true
