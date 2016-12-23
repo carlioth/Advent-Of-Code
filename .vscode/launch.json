@@ -10,7 +10,7 @@
             "name": "Launch Program",
             "program": "${workspaceRoot}/src/Day1/Day1.ts",
             "cwd": "${workspaceRoot}",
-            "outFiles": [ "${workspaceRoot}/dist" ],
+            "outFiles": [ "${workspaceRoot}/dist/**" ],
             "sourceMaps": true
         },
         {
