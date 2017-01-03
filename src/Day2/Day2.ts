@@ -1,11 +1,15 @@
-import * as file from "fs";
-import * as path from "path";
+import { input } from "./input"
 
 
-function getInput(): Array<string> {
-    let input: Array<string> = file.readFileSync(path.join(__dirname, "input.txt")).toString().split("\r\n");
-input.forEach(word => console.log(word));
-return input;
+function readImport(): packageSize[] {
+    let c = input.split(/\s+/);
+
+    let b = c.forEach(b => b.split("x").map(parcel => new packageSize(Number(parcel[0]), Number(parcel[1]), Number(parcel[2]))));
 }
 
-getInput();
+class packageSize {
+    constructor(public width: number, public height: number, public depth: number) { }
+}
+
+let b = readImport().
+    b.forEach(vald => console.log(vald));

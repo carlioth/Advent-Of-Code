@@ -1,3 +1,4 @@
+export const input = `
 3x11x24
 13x5x19
 1x9x27
@@ -998,3 +999,4 @@
 3x12x15
 24x25x17
 14x6x11
+`
